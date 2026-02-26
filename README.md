@@ -12,7 +12,8 @@ This project analyzes the relationship between Bitcoin market sentiment (Fear/Gr
 ## Project Structure
 ```
 .
-├── README.md                           # This file (merged with findings)
+├── README.md                            # This file (merged with findings)
+├── Summary.md                           # This File contains Methodology, Insights and Strategy Recommendations
 ├── requirements.txt                     # Python dependencies
 ├── analysis_notebook.ipynb              # Main analysis notebook
 ├── streamlit_dashboard.py               # Interactive dashboard (Bonus)
@@ -31,7 +32,7 @@ This project analyzes the relationship between Bitcoin market sentiment (Fear/Gr
 ## Setup Instructions
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.10 or higher
 - pip package manager
 
 ### Installation
@@ -57,7 +58,18 @@ pip install -r requirements.txt
 
 ### Running the Analysis
 
-**Option 1: Interactive Dashboard (Recommended ⭐)**
+**Option 1: Jupyter Notebook (Full Analysis)**
+
+1. Open Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
+2. Open `analysis_notebook.ipynb`
+
+3. Run all cells sequentially
+
+**Option 2: Interactive Dashboard (Optional)**
 
 Launch the interactive Streamlit dashboard:
 ```bash
@@ -71,16 +83,7 @@ Features:
 - 💡 Strategy recommendations with supporting evidence
 - 🔍 Data exploration and download capabilities
 
-**Option 2: Jupyter Notebook (Full Analysis)**
 
-1. Open Jupyter Notebook:
-```bash
-jupyter notebook
-```
-
-2. Open `analysis_notebook.ipynb`
-
-3. Run all cells sequentially
 
 ## Datasets
 
